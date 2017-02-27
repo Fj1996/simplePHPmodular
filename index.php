@@ -11,7 +11,7 @@ if(!isset($conf[$modulo]['layout'])) $conf[$modulo]['layout'] = DEFAULT_LAYOUT;
 // Cargamos datos y conectamos a bases de datos etc
 
 //include('clases/database.php');
-//DataBase $database = new DataBase();
+//$database = new DataBase();
 
 $module_path = MODULES_PATH."/".$conf[$modulo]['file'];
 $layout_path = LAYOUTS_PATH."/".$conf[$modulo]['layout'];
